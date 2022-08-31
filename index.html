@@ -1,0 +1,247 @@
+<!doctype HTML>
+<HTML>
+	<Head>
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<Title> OrcaWebView </title>
+		<link rel="stylesheet" href="style.css">
+		<script src="jquery-3.3.1.js"></script>
+	</head>
+	
+	<body>
+		<div id = "all">
+		<div id="background"></div>
+		<!-- Main Part-->
+		<div id="main">
+		
+
+			<div id="main-rest" style="">
+			
+				<button id="pick-button"><img src="img/pick-button.png" width="100%" ></button>
+				<div id="score-holder"><p id="score">0 &#x1F603;</p></div>
+
+			</div>
+
+			<div id="main_upper">
+
+				<H4 id="main_title">Orca</H4>
+
+				<Button id="menu_button"> <H4 id="menu_text"> Menu </H4></Button>
+
+				<hr style="border-style: solid; position: absolute; bottom: 0px; width: 80%; margin-bottom: 2%; border-color: white; background: white; right:10%;">
+			</div>	
+
+		</div>
+
+		<!-- Inner Part-->
+		<div id="InApp" style="display:none;">
+			<div  id="inApp-main" > 
+
+					
+					<p id="activity" style="color: white;">Take a step to help some one </p>
+					<hr style="border-width: 0px; width: 60%; background: linear-gradient(to right,green, yellow, red); height: 3px; margin-left: 5%;">
+					<p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+			</div>		
+			<button id="ok" class="choiceButton" style="left: 5%;"><img src="img/OKButton.png" width="100%" ></button>
+			<button id="else" class="choiceButton" style="left: 39%;"><img src="img/elseButton.png" width="100%" ></button>
+			<button id="home" class="choiceButton" style="right: 5%;"><img src="img/HomeButton.png" width="100%" ></button>
+		
+		</div>
+
+		<!-- Menu Part-->
+		<div id="menu" style= "">
+			<button id="cancel-menu">X</button>
+
+			<center>
+				<p style="color: white; font-size: 60px; font-family: ourFont; margin: 0%;">Orca</p>
+				<hr style="border-style: solid; width: 60%; border-color: white; background: white; margin: 0px;">
+				<button id="about">About Application</button>
+				<hr id="line" style="border-style: solid; width: 60%; border-color: white; background: white; margin: 0px;">
+				<div id="aboutText"><button id="cancel-about">X</button><center><H2 style= "margin:0px;">About</H2><hr style="border-width: 0px; width: 60%; background: linear-gradient(to right,green, yellow, red); height: 3px; margin: 0%;"></center><p id = "about-text" style="line-height:120%; padding: 10px; margin:2%;">This app is built to fight boredom. It was built by: Omar H. Khalil, Zeyad A. Abdullah, and contributers. We wish to draw a smile on your face...  </p></div>				
+				<button id="contact">Contact Us</button>
+				<div id ="contact-form"><center><h1 style="margin:0; font-family: ourFont; font-size: 7vw ;">Notice</h1></center><p id="notice" style="Margin-bottom:20%;">"This contact form is a site that uses cookies from Google to deliver its services and analyze traffic. Your IP address and user-agent are shared with Google along with performance and security metrics to ensure quality of service , generate usage statistics, and to detect and address abuse."</p><button id="Ok">No Problem</button><button id="cancel-contact">X</button></div>
+				<div id="Rank"><p id ="urRank">Rank:</p><p id="RankT" style = "margin: 0;">Rank</p></div>
+				<hr style="border-style: solid; width: 60%; border-color: white; background: white; margin: 0px;">
+				<button id="reset" >Reset Score</button>
+				<hr id="kaboom" style="display: none; border-style: solid; width: 60%; border-color: white; background: white; margin: 0px;">
+				<button id="Done" style = "display:none;" >Done</button>
+			</center>
+</div>
+		<div id="haveU">
+			<p id="haveUText">Have you</p>
+			<hr width="80%" style="margin-left:3%; background:white; border:solid; border-color: white; border-width:1px;">
+			<button id="Yes" class="HaveUButton">Yes</button>
+			<button id="NotYet" class="HaveUButton">Not Yet</button>
+			<button id="IWont" class="HaveUButton">NO, I Won't</button>
+		</div>
+
+		<div id="Uhave">
+			<p id="UhaveText"> </p>
+			<hr width="80%" style="margin-left:3%; background:white; border:solid; border-color: white; border-width:1px;">
+			<button id="Great" align="left" class="HaveUButton">Ok</button>
+		</div>
+		
+		</div>
+		<!-- Introduction-->
+		<div id = "intro1">
+			<img src = "img/I1.png"  class="II">
+			<center><p id="TI1">Hi!</p></center>
+			<button id="BI1" class="phaseButton"></button>
+		</div>
+
+
+		<div id = "intro2" >
+			<img src = "img/I2.png"  class="II">
+			<p id="TI2">This is Orca, an app to fight  boredom...</p>
+			<button id="BI2" class="phaseButton"></button>
+		</div>
+
+
+		<div id = "intro3">
+			<img src = "img/I3.png"  class="II">
+			<p id="TI3">Whenever bored, the "Pick" button will give you a mission...</p>
+			<button id="BI3" class="phaseButton"></button>
+		</div>
+
+
+		<div id = "intro4">
+			<img src = "img/I4.png"  class="II">
+			<p id="TI4">Complete the mission to get your score...</p>
+			<button id="BI4" class="phaseButton"></button>
+		</div>
+
+		<div id = "intro5">
+			<img src = "img/I5.png" class="II">
+			<p id="TI5">Complete even more missions to level up...</p>
+			<button id="BI5" class="phaseButton"></button>
+		</div>
+
+
+		<div id = "intro6">
+			<p id="TI6">Enjoy...</p>
+			<button id="BI6" class="phaseButton"></button>
+		</div>
+
+<div style="position:absolute; display: none;" id ="canvasHolder">
+		<script src="processing.min.js"></script>
+
+		<script type="application/processing">
+
+size(window.innerWidth, window.innerHeight-4); 
+frameRate(60);
+var speed = [];
+
+var level;
+var score2 = localStorage.getItem("score");
+
+if ( localStorage.getItem("level") == "NaN" || localStorage.getItem("level") == "undefined" ||  localStorage.getItem("level") == NaN || localStorage.getItem("level") == null){ localStorage.setItem("level", 0 );  level = "0"; }
+else { level = parseInt(localStorage.getItem("level"));}
+
+
+
+var y = [];
+
+var showIt = 1;
+
+for( var i = 0; i < window.innerWidth/40; i++){speed.push(random(6,20));    y.push(0);}
+
+var levelUP = function(message,nxtLevel){
+	
+	if(showIt == 2){
+  		$("#canvasHolder").fadeIn(100);
+  		$("#levelImg").animate({ "left": "+=100%" }, {duration : 1000});
+		$("#youBecameHolder").animate({ "bottom": "+=100%" }, {duration : 1000});
+		document.querySelector("#YouBecame").textContent += message;
+			}   
+
+		showIt++;
+
+		   rectMode(CENTER);
+		   fill(0, 117, 120);
+  		   stroke(0,117,120);
+		   strokeWeight("1");
+		var w = window.innerWidth * 0.1; 
+
+		for( x = 1; x < w - 2; x++ ){
+
+			  rect(x * w, y[x], (0.02 * window.innerWidth), window.innerHeight * 0.05, 5);
+  			  triangle((x * w) - (0.02 * window.innerWidth), y[x] - window.innerHeight * 0.016, x * w, y[x] - window.innerHeight * 0.042, (x * w) + (0.02 * window.innerWidth), y[x] - window.innerHeight * 0.016);
+			  y[x] -= speed[x];
+ 			  if(y[x] <= 0){ y[x] = height-10; }
+
+		}
+
+		localStorage.setItem("level", nxtLevel );
+
+		/*okNextButt.addEventListener("click", function(){
+				document.querySelector("#YouBecame").textContent += "22";
+			  	$("#canvasHolder").fadeOut(100);
+				level = parseInt(localStorage.getItem("level"));
+				showIt= 0;
+				document.querySelector("#levelImg").style.left = "-103%";	
+				document.querySelector("#youBecameHolder").style.bottom = "-103%";
+				document.querySelector("#YouBecame").textContent = "You Became";
+				
+		});*/
+       
+}
+
+draw = function() {
+
+   	background(0, 0, 0,100);	
+	score2 = parseInt(localStorage.getItem("score"));
+
+ 
+    if(score2 >= 40 && level === 0){ levelUP(" a Small Orca.. ", 1);}
+    if(score2 >= 140 && level === 1){ levelUP(" a Teenage Orca.. ", 2);}
+    if(score2 >= 500 && level === 2){ levelUP(" an Adult Orca.. ", 3);}
+    if(score2 >= 750 && level === 3){ levelUP(" a Parent Orca.. ", 4);}
+    if(score2 >= 1200 && level === 4){ levelUP(" a Hunter Orca.. ", 5);}
+    if(score2 >= 2000 && level === 5){ levelUP(" a Leader Orca.. ", 6);}
+    if(score2 >= 3000 && level === 6){ levelUP(" a Conquerer Orca.. ", 7);}
+    if(score2 >= 5000 && level === 7){ levelUP(" the King Orca..", 8);}
+
+if(localStorage.getItem("level") === "0"){ document.querySelector("#RankT").textContent = "Baby Orca"}
+if(localStorage.getItem("level") === "1"){ document.querySelector("#RankT").textContent = "Small Orca"}
+if(localStorage.getItem("level") === "2"){ document.querySelector("#RankT").textContent = "Teenage Orca"}
+if(localStorage.getItem("level") === "3"){ document.querySelector("#RankT").textContent = "Adult Orca"}
+if(localStorage.getItem("level") === "4"){ document.querySelector("#RankT").textContent = "Parent Orca"}
+if(localStorage.getItem("level") === "5"){ document.querySelector("#RankT").textContent = "Hunter Orca"}
+if(localStorage.getItem("level") === "6"){ document.querySelector("#RankT").textContent = "Leader Orca"}
+if(localStorage.getItem("level") === "7"){ document.querySelector("#RankT").textContent = "Conquerer Orca"}
+if(localStorage.getItem("level") === "8"){ document.querySelector("#RankT").textContent = "King Orca"}
+
+//Makes sure that the main function works properly
+
+if(randm >= activities.length - 1){ randm = -1;}
+
+if(didIt == 1){
+	document.querySelector("#YouBecame").textContent += "22";
+  	$("#canvasHolder").fadeOut(100);
+	level = parseInt(localStorage.getItem("level"));
+	showIt= 0;
+	document.querySelector("#levelImg").style.left = "-103%";	
+	document.querySelector("#youBecameHolder").style.bottom = "-103%";
+	document.querySelector("#YouBecame").textContent = "You Became";
+	didIt = 0;		
+		}
+
+}
+
+		</script>
+
+ 		<canvas></canvas>
+		<img src="img/level.png" id="levelImg" width="100%"></img>
+		<div id="youBecameHolder">
+		<P id="YouBecame">You Became </P></div>
+		<button id="ThankUNext" ></button>
+</div>
+
+		<script src="resize.js"></script>
+		<script src="intro.js"></script>
+		<script src="script.js"></script>
+
+</body>
+
+
+</html>

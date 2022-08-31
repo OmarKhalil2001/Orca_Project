@@ -1,0 +1,10 @@
+***
+please use a mobile device to view it or do the following 
+on a pc: right click -> inspect elements -> toggle device toolbar.
+***
+
+Project Introduction: A website for mobile phones to help users increase their happiness with simple activities.
+
+Technologies:JavaScript, HTML5, CSS, JQuery, ProcessingJS.
+
+Developer: Omar Khalil.

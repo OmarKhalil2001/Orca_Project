@@ -1,0 +1,500 @@
+			HTML,body{
+				height: 100%;
+				margin: 0px;
+			}
+			#haveUText{
+				margin:3%;
+			}
+			#all{
+				display: none;
+			}
+			#UhaveText{
+				margin:3%;
+			}
+			button.HaveUButton{
+				color: white;
+				width: 20%;
+				border: solid;
+				font-family: ourFont4;
+				border-radius: 5px;
+				font-size: 5vw;
+			}
+			#Yes{background: green; border-color: green;}
+			#NotYet{background: #b7b702; border-color: #b7b702; width: 30%}
+			#IWont{background: red; border-color: red; width: 35%;}
+			#Great{background: Green; border-color: Green; width: 35%;}
+			#Uhave{
+				position: absolute;
+				top: 20%;
+				background:rgba(46,46,46);
+				color: white;
+				font-family: ourFont3;
+				width: 80%;
+				right: 6%;
+				font-size: 5vw;
+				border-radius:5px;
+				padding:4%;
+				display: none;
+			}
+			#haveU{
+				position: absolute;
+				top: 20%;
+				background:rgba(46,46,46);
+				color: white;
+				font-family: ourFont3;
+				width: 80%;
+				right: 6%;
+				font-size: 7vw;
+				border-radius:5px;
+				padding:4%;
+				display: none;
+			}
+			#levelImg{
+				position:fixed;
+				top: 10%;
+				left: -103%;
+
+			}
+			#urRank{
+				position: absolute;
+				top: 2%;
+				margin: 0;
+				font-size: 17px;
+				left: 2%;
+			}
+			#Rank{
+				position:absolute;
+				text-align: center;
+				width:100%;
+				background: #197b4f;
+				padding: 5%;
+				padding-left:0;
+				padding-right:0;
+				bottom: 0;
+				margin: 0;
+				color: white;
+				font-size: 40px;
+				font-family: ourFont3; 
+			}
+			#youBecameHolder{
+				position:fixed;
+				bottom: -105%;
+				width: 90%;
+				margin: 5%;
+				height: 60%;
+				border-radius: 5px;
+				background: #29a237;
+				
+			}
+			#YouBecame{
+				Margin: 10%;
+				Font-family: ourFont4;
+				margin-right: 30%;
+				color: white;
+				font-size: 60px;
+			}
+			#ThankUNext{
+				display: inherit;
+				width: 100%;
+				height: 100%;
+				top:0;
+				position: Fixed;
+				border: transparent;
+				background: transparent;
+
+			}
+			#background{
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				margin: 0px;
+				padding: 0px;
+				background : url('img/background.jpg'); 
+				background-position : center; 
+				background-repeat : no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+			}
+			#main_upper{
+				position: fixed;
+				top: 0px;
+				right: 0px;
+				margin: 0px;
+				height: 8%;
+				background: rgba(46,46,46);
+				width: 100%;
+			}
+			#main_title{
+				font-size: 30px;
+				position: fixed;
+				color: white;
+				margin: 0px;
+				font-family: ourFont;			
+				left: 5%;
+			}
+			#menu_button{
+				background: transparent;
+				position: fixed;
+				color: white;
+				margin: 0px;
+				font-family: serif;			
+				right: 5%;
+				border:0px;
+			}	
+			#menu_text{
+				color: white;
+				margin: 0px;
+				margin-top: 6%;
+				font-size: 27px;
+				font-family: ourFont;			
+			}
+			#pick-button{
+    				width: 80%;
+    				margin: 0px;
+    				position: absolute;
+				top: 20%;
+				right: 10%;
+    				padding: 0px;
+				border: 0px;
+				background: transparent;
+			}
+			@font-face{
+				font-family: ourFont;
+				src: url("fonts/Amiri-Regular.ttf")}
+
+			@font-face{	
+				font-family: ourFont2;
+				src: url("fonts/Anton-Regular.ttf")
+			}
+			@font-face{	
+				font-family: ourFont3;
+				src: url("fonts/Andada-Regular.ttf")
+			}
+			@font-face{	
+				font-family: ourFont4;
+				src: url("fonts/Bangers-Regular.ttf")
+			}
+			#intro1{
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(180deg, orange, black);
+				position: fixed;
+				right: 0;
+				top: 0; 
+				display: none;
+			}
+			#BI1{
+				width: 100%;
+				height: 100%;
+				position: Fixed;
+				border: transparent;
+				background: transparent;
+			}
+			#TI1{
+				font-family: ourFont3;
+    				color: white;
+    				font-size: 60px;
+				position: fixed;
+				top: 25%;
+				margin: 5%;
+				display: none;
+			}
+			#intro2{
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(180deg, #009688, black);
+				position: fixed;
+				right: 0;
+				top: 0;
+				display: none; 
+			}
+			#BI2{
+				width: 100%;
+				height: 100%;
+				position: Fixed;
+				border: transparent;
+				background: transparent;
+			}
+			#TI2{
+				font-family: ourFont3;
+    				color: white;
+    				font-size: 40px;
+				margin: 5%;
+				position: fixed;
+				top: 25%;
+				display: none;
+			}
+			#intro3{
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(180deg, blue, black);
+				position: fixed;
+				right: 0;
+				top: 0;
+				display: none; 
+			}
+			#BI3{
+				width: 100%;
+				height: 100%;
+				position: Fixed;
+				border: transparent;
+				background: transparent;
+			}
+			#TI3{
+				font-family: ourFont3;
+    				color: white;
+    				font-size: 40px;
+				margin: 5%;
+				position: fixed;
+				top: 25%;
+				display: none;
+			}
+			img.II{
+				position: absolute;
+    				width: 25%;
+				left: 37.5%;
+    				bottom: 0;
+			}
+			#intro4{
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(180deg, #980000, black);
+				position: fixed;
+				right: 0;
+				top: 0; 
+				display: none;
+			}
+			#BI4{
+				width: 100%;
+				height: 100%;
+				position: Fixed;
+				border: transparent;
+				background: transparent;
+			}
+			#TI4{
+				font-family: ourFont3;
+    				color: white;
+    				font-size: 40px;
+				margin: 5%;
+				position: fixed;
+				top: 25%;
+				display: none;
+			}
+			#intro5{
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(180deg, #00963C, black);
+				position: fixed;
+				right: 0;
+				top: 0; 
+				display: none;
+			}
+			#BI5{
+				width: 100%;
+				height: 100%;
+				position: Fixed;
+				border: transparent;
+				background: transparent;
+			}
+			#TI5{
+				font-family: ourFont3;
+    				color: white;
+    				font-size: 40px;
+				margin: 5%;
+				position: fixed;
+				top: 25%;
+				display: none;
+			}
+			
+			#intro6{
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(180deg, #bac, black);
+				position: fixed;
+				right: 0;
+				top: 0; 
+				display: none;
+			}
+			#TI6{
+				font-family: ourFont3;
+    				color: white;
+    				font-size: 60px;
+				margin: 5%;
+				position: fixed;
+				top: 25%;
+				display: none;
+			}
+			#BI6{
+				width: 100%;
+				height: 100%;
+				position: Fixed;
+				border: transparent;
+				background: transparent;
+			}
+			#score{
+				position: absolute;
+				right: 5%;
+				width: 90%;
+				text-align: center;
+				color: white;
+				margin: 0px;
+				top: 2px;
+				font-size: 22px;
+				font-family: ourFont4;
+			}
+			#menu{
+				position: fixed;
+				left: 102%;
+				top:0px;
+				width:80%;
+				height: 100%;
+				background: rgba(46,46,46);
+				
+			}
+			#contact,#Done , #about, #reset{
+				width: 100%;
+				border: 0px;
+				background: transparent;
+				color: white;
+				margin: 5px;
+				font-size: 30px;
+				font-family: ourFont;
+				
+			}
+			#cancel-menu{
+				width: 35px;
+				height: 35px;
+				color: white;
+				background: red;
+				font-size: 24px;
+				border: 0px;
+			}
+			#cancel-about{
+				position:absolute;
+				left: 0px;
+				border-radius: 7px;
+				width: 35px;
+				height: 35px;
+				color: white;
+				background: red;
+				font-size: 24px;
+				border: 0px;
+			}
+
+			#contact-frame{
+				border-radius: 7px;
+				border: 0px;
+			}
+			#contact-form{
+				display:none;
+				position: fixed;
+				width: 90%;
+				border-radius: 7px;
+				top:15%;
+				right: 5%;
+				color: white;
+				background: rgb(46,46,46);
+			}
+			#notice{
+				font-family: ourFont;
+				font-size: 5vw;
+				line-height: 120%;
+				margin: 5%;
+				margin-top: 0;
+			}
+			#Ok{
+				width: 40%;
+				background: #195319;
+				position:absolute;
+				bottom: 5%;
+				left: 30%;
+				border: solid;
+				color: white;
+				border-color: #195319;
+				font-family: ourfont3;
+				font-size: 4vw;
+				border-radius: 5px;
+			}
+			#cancel-contact{
+				position:absolute;
+				left: 0px;
+				border-radius: 7px;
+				top:0;
+				width: 35px;
+				height: 35px;
+				color: white;
+				background: red;
+				font-size: 24px;
+				border: 0px;
+			}
+			#cancel-contact2{
+				position:absolute;
+				left: 0px;
+				border-radius: 7px;
+				top:0;
+				width: 35px;
+				height: 35px;
+				color: white;
+				background: red;
+				font-size: 24px;
+				border: 0px;
+			}
+			#activity{
+				font-family: ourFont4;
+				font-size: 47px;
+				color: white;
+				width: 70%;
+				line-height: 120%;
+				margin: 5%;
+			}
+			#inApp-main{
+				width: 86%;
+				border-radius: 7px;
+				Padding: 0px;
+				background: rgba(0,0,0,0.57);
+				position: fixed;
+				margin-top: 25%;
+				right: 7%
+			}
+			#score-holder{
+				background: rgb(46,46,46);
+				position: fixed;
+				left: 5%;
+				bottom: 2%;
+				height: 40px;
+				width: 35%;
+				border-radius: 20px;
+
+			}
+			#aboutText{
+				position:fixed;
+				top: 20%; 
+				right: 5%; 
+				width: 90%; 
+				display:none; 
+				color: white; 
+				margin: 0; 
+				font-family: ourfont; 
+				font-size: 21px; 
+				border-radius: 7px;
+				background: rgba(46,46,46,1);
+			}
+			#description{
+				color: white;
+				font-size: 20px; 
+				margin: 5%;
+				bottom: 0%;
+				line-height: 110%;
+				font-family: ourFont;
+			}	
+			button.choiceButton{
+				position: fixed;
+				background: transparent;
+				padding: 0px;
+				width: 22%;
+				border: 0px;
+				bottom: 5%;
+			}
+			*:focus{
+				outline: none;
+			}
